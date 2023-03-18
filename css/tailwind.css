@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    html,
+    body {}
+}
+
+@font-face {
+    font-family: "SF Rounded";
+    src: url("../public/fonts/SF-Arabic-Rounded.ttf");
+}
+
+@font-face {
+    font-family: "SF";
+    src: url("../public/fonts/SF-Arabic.ttf");
+}
